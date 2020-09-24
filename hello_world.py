@@ -1,8 +1,10 @@
 import time
+import aiohttp
 
 
 def func():
     print(time.time())
+    print(dir(aiohttp))
     print("Hello world!")
 
 
