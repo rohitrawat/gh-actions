@@ -1,5 +1,6 @@
 import time
 
+
 def func():
     print(time.time())
     print("Hello world!")
